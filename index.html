@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="calc" aria-label="Calculator">
+      <header class="topbar">
+        <div class="indicators">
+          <span id="angleInd" class="chip">DEG</span>
+          <span id="secondInd" class="chip chip-accent" hidden>2nd</span>
+        </div>
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle light/dark theme">◐</button>
+      </header>
+
+      <div id="display" class="display typing" aria-live="polite">
+        <div id="expr" class="expr"></div>
+        <div id="result" class="result"></div>
+      </div>
+
+      <div id="keys" class="keys"></div>
+    </section>
+
+    <aside class="history" aria-label="History">
+      <div class="history-head">
+        <h2>History</h2>
+        <button id="clearHistory" class="text-btn" type="button">Clear</button>
+      </div>
+      <ol id="historyList" class="history-list"></ol>
+      <p id="historyEmpty" class="empty">Your calculations will show up here. Click one to reuse its result.</p>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
