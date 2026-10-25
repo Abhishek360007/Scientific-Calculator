@@ -7,6 +7,8 @@ A clean, fast scientific calculator that runs entirely in your browser. Built wi
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 
+### 🔗 [Live Demo → abhishek360007.github.io/Scientific-Calculator](https://abhishek360007.github.io/Scientific-Calculator/)
+
 ---
 
 ## ✨ Features
